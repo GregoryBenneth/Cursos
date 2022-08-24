@@ -3,23 +3,16 @@ let nota = 6.9;
 
 switch(Math.ceil(nota)){
 
-    case 10:
-    case 9:
-    case 8:
-    case 7:
+    case 10: case 9: case 8: case 7:
         console.log('Aprovado!')
         break;
-    case 6:
-    case 5:
+    case 6: case 5:
         console.log('Recuperação!')
         break
-    case 4:
-    case 3:
-    case 2:
+    case 4: case 3: case 2:
         console.log('Reprovado!')
         break
-    case 1:
-    case 0:
+    case 1: case 0:
         console.log('Ta na bosta!')
 }
 
