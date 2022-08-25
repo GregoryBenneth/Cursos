@@ -1,6 +1,7 @@
 let nota = 6.9;
 
 
+
 switch(Math.ceil(nota)){
 
     case 10: case 9: case 8: case 7:
